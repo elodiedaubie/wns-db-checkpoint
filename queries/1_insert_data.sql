@@ -7,7 +7,7 @@ INSERT INTO Recruiter (login, password, compagny_id) VALUES ('sam', 'motdepasses
 INSERT INTO Recruiter (login, password, compagny_id) VALUES ('tim', 'motdepassetim', 2);
 
 INSERT INTO Compagny (name, description) VALUES ('wcs', 'centre de formation');
-INSERT INTO Compagny (name, description) VALUES ('wcs', 'ESN');
+INSERT INTO Compagny (name, description) VALUES ('esn', 'ESN');
 
 INSERT INTO Offer (title, description, city, compagny_id) VALUES ('dev', 'Vous savez coder, rejoignez-nous', 'Paris', 1);
 INSERT INTO Offer (title, description, city, compagny_id) VALUES ('formateur JS', 'Vous savez coder en JS, rejoignez-nous', 'Paris', 1);
