@@ -9,6 +9,7 @@ INSERT INTO Recruiter (login, password, compagny_id) VALUES ('tim', 'motdepasset
 INSERT INTO Compagny (name, description) VALUES ('wcs', 'centre de formation');
 INSERT INTO Compagny (name, description) VALUES ('wcs', 'ESN');
 
+INSERT INTO Offer (title, description, city, compagny_id) VALUES ('dev', 'Vous savez coder, rejoignez-nous', 'Paris', 1);
 INSERT INTO Offer (title, description, city, compagny_id) VALUES ('formateur JS', 'Vous savez coder en JS, rejoignez-nous', 'Paris', 1);
 INSERT INTO Offer (title, description, city, compagny_id) VALUES ('formateur PHP', 'Vous savez coder en PHP, rejoignez-nous', 'Paris', 1);
 INSERT INTO Offer (title, description, city, compagny_id) VALUES ('Dev React', 'Vous savez développer sur React, rejoignez-nous', 'Paris', 2);
@@ -16,4 +17,5 @@ INSERT INTO Offer (title, description, city, compagny_id) VALUES ('Dev React', '
 INSERT INTO Candidate (login, password, firstname, lastname, email, phone, description) VALUES ('john', 'motdepassecandidat', 'john', 'doe', 'john@mail.com', '0601020304', 'Je suis un super dev JS, embauchez-moi!');
 
 INSERT INTO Candidate_offer (offer_id, candidate_id) VALUES ('1','1');
-INSERT INTO Candidate_offer (offer_id, candidate_id) VALUES ('3','1');
+INSERT INTO Candidate_offer (offer_id, candidate_id) VALUES ('2','1');
+INSERT INTO Candidate_offer (offer_id, candidate_id) VALUES ('4','1');
